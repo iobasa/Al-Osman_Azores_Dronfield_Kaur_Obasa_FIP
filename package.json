@@ -1,0 +1,28 @@
+{
+  "name": "nodemailerexample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "hbs": "~4.0.1",
+    "morgan": "~1.9.0",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.1",
+    "nodemon": "^2.0.1",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
