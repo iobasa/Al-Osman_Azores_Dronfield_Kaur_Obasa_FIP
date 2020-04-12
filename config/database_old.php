@@ -4,7 +4,7 @@ class Database_Old
     // Note: specify your own database credentials
     private $host = "localhost";
 
-    private $db_name = "db_move";
+    private $db_name = "db_meethiv";
 
     private $username = "root";
 

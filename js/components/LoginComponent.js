@@ -1,4 +1,7 @@
 export default {
+
+    //login page you can change the css but be very careful not to accidentally delete the main content
+
     template: `
         <div class="container">
             <div class="jumbotron roku-jumbotron">

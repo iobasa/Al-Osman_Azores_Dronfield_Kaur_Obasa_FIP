@@ -2,6 +2,8 @@ import HIV101Component from './HIV101Component.js';
 import LivingComponent from './LivingComponent.js';
 import MythsComponent from './MythsComponent.js';
 
+//DO NOT TOUCH THIS COMPONENT OR CODE IN THSI COMPONENT!!!!!!
+
 export default {
     name: "TheNavInfoComponent",
 

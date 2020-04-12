@@ -1,44 +1,66 @@
-# Roku Flashback Project
+# Al-Osman_Azores_Kaur_Obasa_FIP
+FIP Project
 
-### Take a trip back to yesteryear with your old audio, tv and film faves!
+## Assignment Description
+The main objective of this project is for teams of students to pitch, design and develop a professional
+advertising campaign and website for the Regional HIV/Aids Connection.
 
-#### Setup
-You have some options - Docker, or old school. 
+## Description
+A site
 
-If you're using a traditional PHP platform, then clone the repo to your localhost location (htdocs, www directory or wherever your local server expects to find your files).
+### Getting Started and Installing
 
-This is built with PHP on the back end, so you can either install the db_movies database with the tool of your choice, or drop the crutches and use the command line!. Configure your connection settings and you're ready to go.
-
-Or you can let Docker do its thing.  
-
-If you don't have Docker installed, you'll need to get it [here](http://www.docker.com).
-
-CD into the project directory and run docker-compose up  
-When you're done, run docker-compose down
-
-Your app is running on http://localhost:8010  
-phpmyadmin is running on http://localhost:8011
+1. Clone the repo into your htdocs in MAMP or www in WAMP
+```sh
+https://github.com/iobasa/Al-Osman_Azores_Kaur_Obasa_FIP.git
+```
+2. Import database to MAMP or WAMP from the 'database' folder
+3. Open using the localhost:8080 or localhost/--filepath--
+4. login using the username: user1 and password: password
 
 
-#### Dependencies:
-We've rolled our own PHP - no frameworks, just some classes and a bit of procedural code.
+### Dependencies
 
-We use Vue on the front end, but not the CLI or webpack - just Vue with ES6 modules. Also - no jQuery, just plain old JavaScript.
+* HTML5
+* CSS3
+* SASS
+* NodeJS
+* JavaScript
+* Express
 
-We use Gulp for tooling - check <code>gulpfile.js</code> for reference. NPM install should get you up and running with your dev tools.
+### Installing
 
-We also use SASS.
+* cd to the directory of your choice and hack away!
 
-#### Built with:
-Vue (bare bones - no webpack!)
+## Group Members
 
-vue-router
+- Al-Osman Nour 
+- Azores Mikka 
+- Kaur Prabhjot 
+- Dronfield Taylor
+- Obasa Ifekitan 
 
-Boostrap 4
+## Credits/Tools
 
-PHP
+* Adobe XD
+* Adobe Photoshop
+* HTML5
+* CSS3
+* SASS
+* Javascript
+* Bootstrap
+* Vue.js
+* PHP
+* MySQL
 
-JavaScript
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-#### Authors / Dev Team:
-TVR and SpiderPan
+## Acknowledgments
+
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [README Formatting](https://guides.github.com/features/mastering-markdown/)
+* [Meyerweb CSS Reset](https://meyerweb.com/eric/tools/css/reset/)
+* [MySQL Connection Pooling](https://www.npmjs.com/package/mysql#pooling-connections)
+* Trevor Van Rys
+

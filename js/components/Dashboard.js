@@ -1,5 +1,8 @@
 import UserComponent from './UserComponent.js';
 
+//DO NOT TOUCH THIS COMPONENT OR CODE IN THSI COMPONENT!!!!!! 
+// this is the back part of the site like when you sign in this is the dashboard
+
 export default {
 
 	template: `

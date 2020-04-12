@@ -1,5 +1,8 @@
 export default {
     name: "TheMythsComponent",
+    
+    // The page for the Myth Page, please code around the content already shown
+    // for the fact since it is a lighbox, its going to be a modal like in the bootstrap (like you dont already know lol!!) so just put the content in the modal, it it breaks text me!
 
     template: `
     <section>

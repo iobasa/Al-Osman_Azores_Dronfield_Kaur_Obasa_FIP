@@ -1,6 +1,8 @@
 export default {
     name: "TheLivingHIVComponent",
 
+        // The page for the living Page, please code around the content already shown
+
     template: `
     <section>
         <div class="row">
