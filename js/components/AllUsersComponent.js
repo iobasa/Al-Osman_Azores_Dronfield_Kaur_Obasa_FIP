@@ -1,6 +1,8 @@
 import UserComponent from './UserComponent.js';
 import dashComponent from './Dashboard.js';
 
+//DO NOT TOUCH THIS COMPONENT OR CODE IN THSI COMPONENT!!!!!!
+
 export default {
 	template: `
 	<div class="container">

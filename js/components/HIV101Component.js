@@ -1,6 +1,8 @@
 export default {
     name: "TheHIV101Component",
 
+    // The page for the HIV 101 Page, please code around the content already shown
+
     template: `
     <section>
     

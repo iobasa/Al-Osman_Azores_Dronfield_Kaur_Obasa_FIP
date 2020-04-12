@@ -1,4 +1,4 @@
-
+// add imports from each page
 import AllUsersComponent from './components/AllUsersComponent.js';
 import LoginComponent from './components/LoginComponent.js';
 import NavInfoComponent from './components/NavInfoComponent.js';
@@ -8,6 +8,8 @@ import LivingComponent from './components/LivingComponent.js';
 import dashComponent from './components/Dashboard.js';
 import homeComponent from './components/HomeComponent.js';
 
+
+// adding routes
 (() => {
   let router = new VueRouter({
     // set routes
@@ -39,6 +41,7 @@ import homeComponent from './components/HomeComponent.js';
         this.user = data;
       },
 
+      //logout of the page
       logout() {
         // push user back to login page
         this.$router.push({ name: "home" });

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 11, 2020 at 03:40 PM
+-- Generation Time: Apr 12, 2020 at 02:26 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.2.18
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_move`
+-- Database: `db_meethiv`
 --
 
 -- --------------------------------------------------------
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `tbl_content` (
   `description` text NOT NULL,
   `title` varchar(300) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tbl_content`
@@ -44,7 +44,8 @@ CREATE TABLE IF NOT EXISTS `tbl_content` (
 
 INSERT INTO `tbl_content` (`id`, `page_id`, `page_title`, `description`, `title`) VALUES
 (1, 2, 'HIV 101', 'AIDS stands for Acquired Immunodeficiency Syndrome. Having HIV does not mean you have AIDS but when HIV is left untreated and completely breaks down your immune system over several years, it leads to HIV.', 'When left untreated, HIV leads to AIDS'),
-(2, 2, 'living with hiv', 'You might worry that you can never have a relationship, or sex, or that you won\'t be loved but it is absolutely possible to have all these things when you have HIV, it is important to remember that there is much more to you than HIV.', 'You can still love and have sex.');
+(2, 2, 'living with hiv', 'You might worry that you can never have a relationship, or sex, or that you won\'t be loved but it is absolutely possible to have all these things when you have HIV, it is important to remember that there is much more to you than HIV.', 'You can still love and have sex.'),
+(4, 3, 'fact', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'People with HIV can live like anyone as long as they undergo treatment.');
 
 -- --------------------------------------------------------
 
@@ -73,7 +74,7 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
 
 INSERT INTO `tbl_user` (`user_id`, `user_fname`, `user_name`, `user_pass`, `user_email`, `user_date`, `user_ip`, `user_avatar`, `user_permissions`, `user_admin`) VALUES
 (3, 'Trevor', 'user1', 'password', 'me@you.com', '2020-03-09 15:48:21', '::1', 'olaf', 5, 1),
-(5, 'Madelaine', 'user3', 'password', 'me@you.com', '2020-03-09 15:49:39', 'no', 'null', 3, 0),
+(5, 'Madelaine', 'user3', 'password', 'me@you.com', '2020-03-09 15:49:39', '::1', 'null', 3, 0),
 (6, 'Isabelle', 'user4', 'password', 'me@you.com', '2020-03-09 15:50:13', 'no', 'null', 2, 0),
 (7, 'Serena', 'user5', 'password', 'me@you.com', '2020-03-09 15:50:48', '::1', 'null', 2, 0),
 (9, 'Ifekitan', 'iffy', '123', 'qsqs@dqdqs.com', '2020-04-10 17:06:48', 'no', 'null', 1, 1);
