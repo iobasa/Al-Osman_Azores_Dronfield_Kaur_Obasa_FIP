@@ -1,69 +1,44 @@
-# Al-Osman_Azores_Kaur_Obasa_FIP
-FIP Project
+# Roku Flashback Project
 
-## Assignment Description
-The main objective of this project is for teams of students to pitch, design and develop a professional
-advertising campaign and website for the Regional HIV/Aids Connection.
+### Take a trip back to yesteryear with your old audio, tv and film faves!
 
-## Description
-A site
+#### Setup
+You have some options - Docker, or old school. 
 
-### Getting Started and Installing
+If you're using a traditional PHP platform, then clone the repo to your localhost location (htdocs, www directory or wherever your local server expects to find your files).
 
-1. Clone the repo
-```sh
-https://github.com/iobasa/Al-Osman_Azores_Kaur_Obasa_FIP.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-3. Import database to MAMP or WAMP from the 'database' folder
-4. Run Node
-```sh
-npm start
-```
+This is built with PHP on the back end, so you can either install the db_movies database with the tool of your choice, or drop the crutches and use the command line!. Configure your connection settings and you're ready to go.
 
-### Dependencies
+Or you can let Docker do its thing.  
 
-* HTML5
-* CSS3
-* SASS
-* NodeJS
-* JavaScript
-* Express
+If you don't have Docker installed, you'll need to get it [here](http://www.docker.com).
 
-### Installing
+CD into the project directory and run docker-compose up  
+When you're done, run docker-compose down
 
-* cd to the directory of your choice and hack away!
+Your app is running on http://localhost:8010  
+phpmyadmin is running on http://localhost:8011
 
-## Group Members
 
-- **Al-Osman Nour
-- **Azores Mikka 
-- **Kaur Prabhjot 
-- **Obasa Ifekitan 
+#### Dependencies:
+We've rolled our own PHP - no frameworks, just some classes and a bit of procedural code.
 
-## Credits/Tools
+We use Vue on the front end, but not the CLI or webpack - just Vue with ES6 modules. Also - no jQuery, just plain old JavaScript.
 
-* Adobe XD
-* Adobe Photoshop
-* HTML5
-* CSS3
-* SASS
-* Javascript
-* Node.js
-* Express
-* MySQL
+We use Gulp for tooling - check <code>gulpfile.js</code> for reference. NPM install should get you up and running with your dev tools.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+We also use SASS.
 
-## Acknowledgments
+#### Built with:
+Vue (bare bones - no webpack!)
 
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [README Formatting](https://guides.github.com/features/mastering-markdown/)
-* [Meyerweb CSS Reset](https://meyerweb.com/eric/tools/css/reset/)
-* [MySQL Connection Pooling](https://www.npmjs.com/package/mysql#pooling-connections)
-* Trevor Van Rys
+vue-router
 
+Boostrap 4
+
+PHP
+
+JavaScript
+
+#### Authors / Dev Team:
+TVR and SpiderPan

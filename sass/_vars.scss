@@ -1,9 +1,11 @@
-$body-bg:white;
+$dark-bg: rgb(26, 24, 24);
+$roku-purple: #6C3C97;
 
-$yellow: #F2CD00;
-$red: #E1251B;
-$blue: #6FCFEB;
-$purple: #9164CC;
-$orange: #FF5100;
-
-$Nunito: 'Nunito', sans-serif;
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+  
