@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131.577" height="216.135" viewBox="0 0 131.577 216.135">
+  <g id="Component_2_10" data-name="Component 2 – 10" transform="translate(2.64)">
+    <g id="body">
+      <path id="left_arm" data-name="left arm" d="M879.726,960.2s6.434,14.478,19.074,20.683,21.7,4.136,21.7,4.136" transform="translate(-879.726 -881.152)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="left_leg" data-name="left leg" d="M926.242,1161.34h16.59s-10.018-15.313-10.04-22.9,3.452-18.99,7.774-22.9" transform="translate(-899.355 -946.705)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="body-2" data-name="body" d="M1007.868,920.968c0,53.863-25.222,78.5-50.1,78.5-14.244,0-32.041-10.527-32.862-28.266-.613-13.24,5.467-24.726,11.6-46.916,2.237-8.1-10.462-25.65-13.2-33.055-5.277-14.248-7.975-29.609-4.929-40.675,5.271-19.149,31.337-27.117,44.456-27.117C987.7,823.44,1007.868,867.1,1007.868,920.968Z" transform="translate(-895.494 -823.44)" fill="#ed1c24"/>
+      <path id="bottom" d="M1012.213,951.312a207.284,207.284,0,0,1,1.33,23.615c0,53.863-25.222,78.5-50.1,78.5-14.244,0-32.041-10.527-32.862-28.266-.613-13.24,5.467-24.726,11.6-46.916a9.644,9.644,0,0,0,.139-3.839Z" transform="translate(-901.169 -877.4)" fill="#29abe2"/>
+      <path id="body_shine" data-name="body shine" d="M941.02,1049.355c2.207,3.61,6.681,3.331,8.63-1.188a30.98,30.98,0,0,0,1.877-6.222c1.395-6.992,1.628-9.266,2.905-14.658a174.467,174.467,0,0,1,5.292-17.375c1.8-5.294-3.47-8.3-6.628-5.822s-7.25,13.27-9.645,22.879c-1.353,5.43-2.134,10.719-2.9,15.357C940.11,1044.961,939.9,1047.521,941.02,1049.355Z" transform="translate(-905.243 -899.3)" fill="#fff"/>
+    </g>
+    <path id="mouth" d="M954.943,948.2s3.8,3.635,8.8,3.7c6.2.078,10.535-3.618,11.339-5.111" transform="translate(-911.466 -875.491)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="cheeks" transform="translate(37.11 64.24)">
+      <ellipse id="left_cheek" data-name="left cheek" cx="3.447" cy="3.672" rx="3.447" ry="3.672" transform="translate(0 2.327)" fill="#840710"/>
+      <circle id="right_cheek" data-name="right cheek" cx="4.364" cy="4.364" r="4.364" transform="translate(23.997)" fill="#840710"/>
+    </g>
+    <g id="eyes" transform="translate(30.742 37.37)">
+      <ellipse id="right_eye" data-name="right eye" cx="7.124" cy="10.399" rx="7.124" ry="10.399" transform="matrix(0.979, -0.206, 0.206, 0.979, 24.956, 2.929)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse id="lef_eye" data-name="lef eye" cx="8.454" cy="5.791" rx="8.454" ry="5.791" transform="matrix(0.206, -0.979, 0.979, 0.206, 0, 19.557)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse id="right_shine" data-name="right shine" cx="3.466" cy="3.779" rx="3.466" ry="3.779" transform="translate(28.586 3.33)" fill="#fff"/>
+      <ellipse id="left_shine" data-name="left shine" cx="2.818" cy="3.072" rx="2.818" ry="3.072" transform="translate(5.482 5.148)" fill="#fff"/>
+    </g>
+    <path id="right_arm" data-name="right arm" d="M1047.9,937.987s23.9,8.8,28.036-16.626,1.149-32.322,1.149-32.322" transform="translate(-950.692 -851.122)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="right_leg" data-name="right leg" d="M986.51,1159.092H1003.1s-10.018-15.313-10.04-22.9,3.317-22.068,7.64-25.975" transform="translate(-924.787 -944.457)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="226.913" height="277.855" viewBox="0 0 226.913 277.855">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="body" d="M1181.888,284.009c0,56.827-37.932,78.778-84.723,78.778s-84.722-15.52-84.722-72.347c0-26.3,20.326-79.077,33.691-97.266,15.516-21.119,25.893-36.174,51.031-36.174,23.325,0,33.234,14.436,48.554,32.958C1161.133,208.591,1181.888,255.51,1181.888,284.009Z" transform="translate(-1012.443 -157)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_249" data-name="Group 249" transform="translate(-3391.753 2912.774)">
+    <g id="Component_13_12" data-name="Component 13 – 12" transform="translate(3449.221 -2912.774)">
+      <path id="right_leg" data-name="right leg" d="M1196.553,468.519H1172.1s24.614-30.9,1.626-49.609" transform="translate(-1057.359 -225.408)" fill="none" stroke="#29abe2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="left_leg" data-name="left leg" d="M1041.27,468.519h24.452s-24.613-30.9-1.624-49.609" transform="translate(-1014.947 -225.408)" fill="none" stroke="#29abe2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="body-2" data-name="body" d="M1181.888,284.009c0,56.827-37.932,78.778-84.723,78.778s-84.722-15.52-84.722-72.347c0-26.3,20.326-79.077,33.691-97.266,15.516-21.119,25.893-36.174,51.031-36.174,23.325,0,33.234,14.436,48.554,32.958C1161.133,208.591,1181.888,255.51,1181.888,284.009Z" transform="translate(-1012.443 -157)" fill="#29abe2"/>
+      <g id="shadow">
+        <g id="Group_27" data-name="Group 27" clip-path="url(#clip-path)">
+          <path id="Path_49" data-name="Path 49" d="M979.232,310.182s23.56,71.432,110.289,70.586,111.35-70.586,111.35-70.586V404.2H979.232Z" transform="translate(-1004.862 -195.705)" fill="#0071bc"/>
+        </g>
+      </g>
+      <path id="left_tooth" data-name="left tooth" d="M1112.951,318.146c-1.959-.4-4.545-2.507-4.67-2.246-.743,1.547-3.093,6.862-1.513,8.872,1.9,2.41,5.73,2.235,8.223-1.9a24.466,24.466,0,0,0,1.9-3.825Z" transform="translate(-1034.597 -194.602)" fill="#fff"/>
+      <path id="left_tooth-2" data-name="left tooth" d="M1130.34,318.146c1.958-.4,4.545-2.507,4.67-2.246.743,1.547,3.094,6.862,1.513,8.872-1.9,2.41-5.73,2.235-8.223-1.9a24.436,24.436,0,0,1-1.9-3.825Z" transform="translate(-1039.361 -194.602)" fill="#fff"/>
+      <ellipse id="left_eye" data-name="left eye" cx="18.604" cy="19.03" rx="18.604" ry="19.03" transform="translate(47.566 63.981)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="left_eye_shine" data-name="left eye shine" cx="11.725" cy="10.523" rx="11.725" ry="10.523" transform="translate(54.261 65.24)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="right_eye" data-name="right eye" cx="18.604" cy="19.03" rx="18.604" ry="19.03" transform="translate(85.492 63.981)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="right_eye_shine" data-name="right eye shine" cx="11.725" cy="10.523" rx="11.725" ry="10.523" transform="translate(92.88 65.24)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="H" transform="translate(58.645 144.374)">
+        <path id="Path_50" data-name="Path 50" d="M1129,405.342V385.469h-18.5v19.873h-16.826V352.957h16.826v19.11H1129v-19.11h16.826v52.385Z" transform="translate(-1093.667 -352.957)" fill="#1a1a1a"/>
+      </g>
+      <path id="mouth" d="M1104.477,309.842c2.642,5.788,9.475,9.545,16.846,9.308,6.977-.225,13.165-3.987,15.566-9.483" transform="translate(-1035.961 -193.052)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <text id="_" data-name="?" transform="translate(3413.753 -2665.919)" fill="#fff" font-size="89" font-family="Nunito-Black, Nunito" font-weight="800" letter-spacing="0.1em"><tspan x="-21.271" y="0">?</tspan></text>
+  </g>
+</svg>

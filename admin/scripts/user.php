@@ -19,7 +19,7 @@ function createUser($fname, $username, $password, $email){
     //TODO: redirect to index.php if creat user successfully
     // otherwise, return a error message
     if($create_user_result){
-        redirect_to('index.php');
+        redirect_to('index_admin.php');
     }else{
         return 'The user did not go through';
     }
@@ -43,6 +43,24 @@ function getSingleUser($id){
     }else{
         return 'There was a problem accessing the user';
     }
+}
+
+function getAllUserrs(){
+    $pdo = Database::getInstance()->getConnection();
+    //TODO: execute the proper SQL query to fetch the user data whose user_id = $id
+    $get_all_user_query = "SELECT * FROM tbl_user";  
+    $users = $pdo->query($get_all_user_query); // not usng preapre becasue user has zero impact on the query so you can just run the query instead of prepare
+    // $get_all_user_result = $get_all_user_set->execute();
+
+    //TODO: if the execution is successful, return the user data
+    // Otherwise, return an error message
+    if($users){
+        return $users;
+    }else{
+    // User doesn't exist
+    return false;
+}
+
 }
 
 function getAllUsers(){
@@ -99,7 +117,7 @@ function editUser($id, $fname, $username, $password, $email){
     //TODO: if everything goes well, redirect user to index.php
     // Otherwise, return some error message...
     if($update_user_result){
-        redirect_to('index.php');
+        redirect_to('index_admin.php');
     }else{
         return 'Guess you got canned...';
     }

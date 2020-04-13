@@ -1,0 +1,15 @@
+<svg id="Component_4_6" data-name="Component 4 – 6" xmlns="http://www.w3.org/2000/svg" width="170.495" height="208.275" viewBox="0 0 170.495 208.275">
+  <g id="legs" transform="translate(-1361.803 -895.402)">
+    <path id="Path_29" data-name="Path 29" d="M1423.131,1062.489s16,37.021,11.308,38.846-21.344-.245-21.344-.245" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Path_30" data-name="Path 30" d="M1481.581,1058.6s-.8,39.65,7.213,42.5c4.205,1.494,24.733,0,24.733,0" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+  <circle id="bottom" cx="85.247" cy="85.247" r="85.247" fill="#39647f"/>
+  <path id="top_half" data-name="top half" d="M1361.975,986.113q-.171-2.71-.172-5.464a85.247,85.247,0,0,1,170.494,0q0,2.754-.172,5.464" transform="translate(-1361.803 -895.402)" fill="#29abe2"/>
+  <g id="eyes" transform="translate(-1361.803 -895.402)">
+    <path id="Path_31" data-name="Path 31" d="M1404.3,986.211q0-.391.005-.782c.2-15.188,6.309-27.373,13.812-27.373,7.535,0,13.661,12.29,13.814,27.569q0,.293,0,.586" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_32" data-name="Path 32" d="M1457.87,986.211c0-15.55,6.186-28.155,13.817-28.155s13.817,12.6,13.817,28.155" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="5.018" cy="5.018" r="5.018" transform="translate(1413.095 958.925)" fill="#fff"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="5.018" cy="5.018" r="5.018" transform="translate(1466.669 958.925)" fill="#fff"/>
+  </g>
+  <path id="mouth" d="M1457.79,1009.891c-1.015,9.362-8.272,12.141-12.7,12.141-4.287,0-12.714-2.11-13.636-12.141" transform="translate(-1361.803 -895.402)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

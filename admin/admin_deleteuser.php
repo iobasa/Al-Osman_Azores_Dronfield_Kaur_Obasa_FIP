@@ -3,7 +3,7 @@
     confirm_logged_in();
 
     $tbl ="tbl_user";
-    $users = getAll($tbl);
+    $users = getAllUserrs();
 
     if(!$users){
         $message = 'Failed to get user list';
