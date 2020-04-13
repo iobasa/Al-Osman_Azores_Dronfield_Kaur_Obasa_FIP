@@ -7,18 +7,19 @@ import Myth6Component from './Myth6Component.js';
 
 export default{
     template: `
-        <div class="container">
+        <div class="container ">
 
         <!-- Button trigger modal -->
-        <div class="row px-5">
+
+        <div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter1">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter1">
 <div>
 <h1>I can get HIV from hugging someone who has HIV.</h1>
 <img src="images/icon-circle.svg" class="icon"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
@@ -26,110 +27,110 @@ export default{
 
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter2">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter2">
 <div>
 <h1>I can treat HIV without any medical help.</h1>
 <img src="images/icon-circle.svg" class="icon"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter">
 <div>
 <img src="images/myth-1.svg"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter">
 <div>
 <img src="images/myth-2.svg"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter3">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter3">
 <div>
 <h1>If you get HIV, your life is over.</h1>
 <img src="images/icon-circle.svg" class="icon"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter4">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter4">
 <div>
 <h1>If I get infected fluid from an HIV+ person, I will get HIV.</h1>
 <img src="images/icon-circle.svg" class="icon"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter5">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter5">
 <div>
 <h1>You can only get HIV if you’re gay.</h1>
 <img src="images/icon-circle.svg" class="icon"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter6">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter6">
 <div>
 <h1>Having HIV means that person is dirty or sexually promiscuous.</h1>
 <img src="images/icon-circle.svg" class="icon"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
 
 <!-- button -->
-<div class="row px-5">
+<div class="row px-5 mythsbuttons px-3 py-3 my-3">
         <div class="col-12">
 
-<button class="mythsbuttons px-3 py-3 my-3" type="button" data-toggle="modal" data-target="#exampleModalCenter">
+<div type="button" data-toggle="modal" data-target="#exampleModalCenter">
 <div>
 <img src="images/myth-3.svg"> 
 </div>
-</button>
+</div>
 
 </div>
 </div>
@@ -155,9 +156,9 @@ export default{
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </div>
       </div>
       <div class="modal-body">
       <myth1/>
@@ -172,9 +173,9 @@ export default{
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </div>
       </div>
       <div class="modal-body">
       <myth2/>
@@ -189,9 +190,9 @@ export default{
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </div>
       </div>
       <div class="modal-body">
       <myth3/>
@@ -206,9 +207,9 @@ export default{
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </div>
       </div>
       <div class="modal-body">
       <myth4/>
@@ -224,9 +225,9 @@ export default{
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </div>
       </div>
       <div class="modal-body">
       <myth5/>
@@ -241,9 +242,9 @@ export default{
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </div>
       </div>
       <div class="modal-body">
       <myth6/>
