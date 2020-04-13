@@ -3,13 +3,13 @@ import Myth1Component from './Myth1Component.js';
 import Myth3Component from './Myth3Component.js';
 import lightComponent from './lightbox.js';
 import getTested from './getTested.js';import footers from "./footers.js";
-import nav from "./Navigation.js";
+import navig from "./Navigation.js";
 
 export default {
     template: `
     <div>
 
-    <nav/>
+    <navig/>
         <div class="myths">
         <section class="hero" id="hivmyths">
             <div class="herotext">
@@ -67,7 +67,7 @@ export default {
         myth3: Myth3Component,
         light: lightComponent,
         footers: footers,
-        nav: nav,
+        navig: navig,
     }
     
 }

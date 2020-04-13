@@ -1,10 +1,12 @@
 import gettested from "./getTested.js";
 import prevention from "./HIVprevent.js";
 import footers from "./footers.js";
+import navig from "./Navigation.js";
 
 export default {
     template: `
     <div>
+    <navig/>
     <div class="hivprevention">
     <section class="hero" id="hivprevention">
         <div class="herotext">
@@ -70,7 +72,7 @@ export default {
 
     <!-- LEARN MORE -->
     <div class="container learn-more">
-        <div class="row "px-5 justify-content-center">
+        <div class="row px-5 justify-content-center">
             <div class="col learn-button my-3" cols="10" id="learn-text">
             <h1>Learn More</h1>
             </div>
@@ -217,5 +219,6 @@ export default {
         gettested: gettested,
         prevention: prevention,
         footers: footers,
+        navig: navig
       },
 }

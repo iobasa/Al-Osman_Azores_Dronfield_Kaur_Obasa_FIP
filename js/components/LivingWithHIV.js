@@ -1,9 +1,12 @@
 import getTested from './getTested.js';
 import footers from './footers.js';
+import navig from "./Navigation.js";
 
 export default {
     template:  `
         <div>
+
+        <navig/>
         <div class="hivliving">
         <section class="hero" id="hivliving">
             <div class="herotext">
@@ -66,7 +69,7 @@ export default {
 
 
         <div class="container living mt-5">
-            <div class="row" class="justify-content-center px-4">
+            <div class="row justify-content-center px-4">
                 <!-- TREATMENT -->
                 <div class="col col-text" id="treatment" cols="12">
                     <h3 class="light">HIV Treatment</h3>
@@ -111,7 +114,7 @@ export default {
             </div>
         </div >
 
-        <div class="container"  class="living my-5">
+        <div class="container living my-5" >
             <div class="row justify-content-center px-4">
                 <div class="col col-text" id="pregnancy" cols="12">
                     <h3 class="light">Pregnancy with HIV</h3>
@@ -162,5 +165,6 @@ export default {
         
         gettested: getTested,
         footers: footers,
+        navig: navig
     }
 }

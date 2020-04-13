@@ -1,12 +1,14 @@
 import footers from "./footers.js";
+import navig from "./Navigation.js";
 
 
 export default {
     template: `
     <div>
+    <navig/>
     <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <div class ="card-group columns masonry">
+    <div class ="masonry card-columns">
       <div class ="card red cardClass padding-lg">
         <div class ="card-title" ><h1>Hello, it’s nice to meet you.</h1></div>
       </div>
@@ -113,6 +115,7 @@ export default {
 
     components: {
       footers: footers,
+      navig: navig
     },
 
 }

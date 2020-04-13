@@ -3,10 +3,12 @@ import stagetwo from "./HIV101Stage2";
 import stagethree from "./HIV101Stage3";
 import gettested from "./getTested";
 import footers from "./footers.js";
+import navig from "./Navigation.js";
 
 export default {
     template:  `
     <div>
+    <navig/>
     <div class="hiv101">
     <section class="hero" id="hiv101">
       <div class="herotext">
@@ -194,5 +196,6 @@ export default {
         stagethree: stagethree,
         gettested: gettested,
         footers: footers,
+        navig: navig
       },
 }
