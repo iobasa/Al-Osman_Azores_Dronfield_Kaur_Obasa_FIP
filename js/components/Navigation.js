@@ -29,35 +29,38 @@ export default {
             </div>
 
             <div class="learn-button" id="learn-prevent" @click="toggleMenu(); toggleLearnMore(); toggleArrow(); toggleArrowRotate()">
-                <router-link to="/hiv-prevent" tag="li">
+                <router-link to="/hiv-prevention" tag="li">
                 <h5>Prevention</h5>
                 <img src="images/hiv-prevention.svg" alt="HIV prevention"> 
                 </router-link>
             </div>
 
             <div class="learn-button" id="learn-myths" @click="toggleMenu(); toggleLearnMore(); toggleArrow(); toggleArrowRotate()">
-                <router-link to="hiv-myths-and-facts" tag="li">
+                <router-link to="/myths" tag="li">
                 <h5>Myths</h5>
                 <img src="images/hiv-myth.svg" alt="HIV myths">
                 </router-link>
             </div>
 
             <div class="learn-button" id="learn-living" @click="toggleMenu(); toggleLearnMore(); toggleArrow(); toggleArrowRotate()">
-                <router-link to="hiv-living" tag="li">
+                <router-link to="/hiv-living" tag="li">
                 <h5>Living with HIV</h5>
                 <img src="images/hiv-living.svg" alt="Living with HIV"> 
                 </router-link>
             </div>
+
+            
         </div>
     </div>
 
     <div class="mobile-nav-open" v-bind:class="{ open: isActive }">
         <ul>
-            <li><a href="#">Home</a></li>
+        <li><router-link to="/">HOME</router-link></li>
             <li @click="toggleLearnMore(); toggleArrow(); toggleArrowRotate()"><a href="#">
                 Get to Know <img v-bind:class="{ rotate: isSecondArrow }" src="images/icon-forward.svg" alt="Arrow pointing right"> 
             </a></li>
             <li><a href="https://hivaidsconnection.ca/" target="_blank">RHAC</a></li>
+            <li><router-link to="/login" class="login">LOGIN</router-link></li>
         </ul>
     </div>
 </div>
