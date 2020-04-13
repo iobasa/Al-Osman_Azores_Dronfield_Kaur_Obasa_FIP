@@ -54,7 +54,7 @@ export default {
     <!-- LEARN MORE -->
     <div class="container learn-more">
       <div class="row px-5 justify-content-center">
-        <div class="col learn-button my-3 cols="10" id="learn-text">
+        <div class="col learn-button my-3" cols="10" id="learn-text">
           <h1>Learn More</h1>
         </div>
         
