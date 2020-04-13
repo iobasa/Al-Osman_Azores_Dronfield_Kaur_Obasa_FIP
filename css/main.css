@@ -135,7 +135,6 @@
 
   .nav {
     background-color: white;
-    width: 100vw;
     z-index: 300;
     position: relative;
     display: flex;
@@ -198,7 +197,8 @@
         margin-bottom: 15px; } }
 @media screen and (min-width: 1024px) {
   .scrolldown {
-    transform: translateY(300px); }
+    transform: translateY(300px);
+    position: sticky; }
 
   .nav {
     padding: 50px; }

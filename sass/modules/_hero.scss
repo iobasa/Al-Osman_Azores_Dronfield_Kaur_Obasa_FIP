@@ -156,7 +156,6 @@
 
     .nav {
         background-color: white;
-        width: 100vw;
         z-index: 300;
         position: relative;
         display: flex;
@@ -250,7 +249,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .scrolldown { transform: translateY(300px); }
+    .scrolldown { transform: translateY(300px); 
+        position: sticky;
+    }
     
     .nav {
         padding: 50px;
@@ -278,6 +279,7 @@
 
     .learn-more-menu {
         top: -300px!important;
+        
         
         .learn-button {
             height: 200px!important;
