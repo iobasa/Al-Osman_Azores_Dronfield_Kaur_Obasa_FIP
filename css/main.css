@@ -35,6 +35,9 @@
 #hivliving {
   background-color: #6FCFEB; }
 
+.nav, .nav-open {
+  display: none; }
+
 .open {
   right: 0vw !important; }
 
@@ -42,7 +45,6 @@
   transform: rotate(-180deg); }
 
 .mobile-nav {
-  margin-bottom: 25%;
   background-color: white;
   width: 100vw;
   z-index: 300;
@@ -121,6 +123,102 @@
           margin-left: 10px;
           transition: transform 1s, opacity 1s ease; }
 
+@media screen and (min-width: 768px) {
+  .mobile-nav, .mobile-nav-open {
+    display: none; }
+
+  .nav-open {
+    display: block; }
+
+  .scrolldown {
+    transform: translateY(208px); }
+
+  .nav {
+    background-color: white;
+    width: 100vw;
+    z-index: 300;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+    -webkit-box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36); }
+    .nav .logo {
+      width: 200px !important; }
+    .nav ul.social li {
+      display: inline-block;
+      margin-left: 5px;
+      margin-right: 0 !important; }
+      .nav ul.social li img {
+        width: 60%;
+        margin-left: 0; }
+    .nav .menu ul {
+      list-style-type: none; }
+      .nav .menu ul li {
+        display: inline-block;
+        margin-right: 25px; }
+        .nav .menu ul li a {
+          color: #E1251B;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          text-decoration: none; }
+        .nav .menu ul li img {
+          margin-left: 5px;
+          transform: rotate(90deg); }
+    .nav .logo img {
+      width: 70%; }
+
+  #get-to-know {
+    transition: transform 1s ease-in-out 0.1s; }
+    #get-to-know img.back {
+      transform: rotate(-180deg);
+      margin-right: 10px;
+      transition: transform 1s ease-in-out 0.1s; }
+    #get-to-know .learn-more-menu {
+      position: fixed;
+      z-index: 200;
+      top: -208px;
+      background-color: white;
+      width: 100vw;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 0;
+      padding: 20px;
+      -webkit-box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36);
+      -moz-box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36);
+      box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36); }
+      #get-to-know .learn-more-menu .learn-button {
+        width: 25%;
+        margin: 20px;
+        padding: 20px;
+        margin-bottom: 15px; } }
+@media screen and (min-width: 1024px) {
+  .scrolldown {
+    transform: translateY(300px); }
+
+  .nav {
+    padding: 50px; }
+    .nav .logo {
+      width: initial !important; }
+    .nav .menu ul li {
+      margin-right: 40px; }
+
+  #get-to-know {
+    transition: transform 1s ease-in-out 0s; }
+
+  .learn-more-menu {
+    top: -300px !important; }
+    .learn-more-menu .learn-button {
+      height: 200px !important;
+      padding: 20px; }
+      .learn-more-menu .learn-button h5 {
+        font-size: 20px !important; }
+      .learn-more-menu .learn-button img {
+        height: 120px !important; } }
 #stage-two {
   background-color: #E1251B;
   color: white; }
@@ -371,7 +469,7 @@
 .mythsbuttons {
   background-color: #E1251B;
   border-radius: 30px;
-  width: 204px;
+  width: 100%;
   height: 249px;
   display: flex;
   flex-direction: column;
@@ -451,6 +549,27 @@
       display: inline-block;
       margin: 0 10px; }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding: 35px 40px; }
+    .footer img.logo {
+      width: 25%; }
+    .footer h3 {
+      font-size: 14px;
+      width: 30%; }
+    .footer ul.social li {
+      margin: 0 5px; }
+      .footer ul.social li img {
+        width: 60%; } }
+@media screen and (min-width: 1024px) {
+  .footer h3 {
+    width: 40%;
+    font-size: 20px; }
+  .footer ul.social li {
+    margin: 0 10px; }
+    .footer ul.social li img {
+      width: 80%; } }
 * {
   margin: 0;
   padding: 0;
