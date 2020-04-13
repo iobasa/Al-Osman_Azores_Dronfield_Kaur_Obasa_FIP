@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap');
+
+@import '_variables';
+@import 'modules/_hero';
+@import 'modules/_hiv101stages';
+@import 'modules/_learnmore';
+@import 'modules/_myths';
+@import 'modules/_tested';
+@import 'modules/_footer';
+
+
+
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html, body { height: 100%; font-family: 'Nunito', sans-serif; }
+
+a { text-decoration: none;}
+ul {list-style-type: none;}
+
+h1 { 
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 900!important;
+    line-height: 25px!important;
+}
+
+h2 { 
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px; 
+    font-weight: 900!important; 
+}
+
+h3 { 
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px; 
+    font-weight: 600!important; 
+    letter-spacing: 2px;
+}
+
+h3.light {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600!important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 600!important;
+    letter-spacing: 1px;
+}
+
+// h4 { font-size: 24pt; }
+// h5 { font-size: 20pt; font-weight: 400; line-height: 35px; letter-spacing: 1px; }
+// h6 { font-size: 18pt; }
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+// h1 { font-size: 80pt; line-height: 80px;}
+// h2 { font-size: 60pt; line-height: 75px;}
+// h3 { font-size: 36pt; line-height: 55px;}
+// h3.light {
+//     font-weight: 400;
+//     letter-spacing: 3px;
+//     text-transform: uppercase;
+// }
+// h4 { font-size: 24pt; }
+// h5 { font-size: 20pt; font-weight: 400; line-height: 35px; letter-spacing: 1px; }
+// h6 { font-size: 18pt; }

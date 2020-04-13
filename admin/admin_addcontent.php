@@ -8,17 +8,19 @@ confirm_logged_in();
 // 2. check database and find out how the form looks like
 // 3. build the form
 
-$content_table = 'tbl_content';
-$contents = getAll($content_table);
-
 if(isset($_POST['submit'])){
-    $content = array(
-        'title' => $_POST['title'],
-        'description' => $_POST['description']
-    );
+    $myth = trim($_POST['myth']);
+    $fact = trim($_POST['fact_title']);
+    $fact_desc = trim($_POST['fact_description']);
+    $link1 = trim($_POST['link1']);
+    $link2 = trim($_POST['link2']);
+    $video = trim($_POST['video_id']);
 
-    $result = addContent($content);
-    $message = $result;
+    if(empty($myth) || empty($fact) || empty($fact_desc)){
+        $message = 'Please fill the required fields';
+    }else{
+        $message = addContent($myth, $fact, $fact_desc, $link1, $link2, $video);
+    }
 }
 ?>
 
@@ -35,13 +37,25 @@ if(isset($_POST['submit'])){
     <?php echo !empty($message)?$message:'';?>
     <form action="admin_addcontent.php" method="post" enctype="multipart/form-data">
 
-            <label>Content title:</label>
-            <input type="text" name="title" value=""><br><br>
+            <label>Myth:</label>
+            <input type="text" name="myth" value=""><br><br>
 
-            <label>Content Description:</label>
-            <textarea name="description" cols="50" rows="20"></textarea><br><br>
+            <label>FACT title:</label>
+            <input type="text" name="fact_title" value=""><br><br>
 
-            <button type="submit" name="submit">Add Content</button>
+            <label>Fact Description:</label>
+            <textarea name="fact_description" cols="50" rows="20"></textarea><br><br>
+
+            <label>Link1:</label>
+            <input type="text" name="link1" value=""><br><br>
+            
+            <label>Link2:</label>
+            <input type="text" name="link2" value=""><br><br>
+
+            <label>Video Embededed:</label>
+            <input type="text" name="video_id" value=""><br><br>
+
+            <button type="submit" name="submit">Add Content</button><br><br><br>
 
     </form>
 

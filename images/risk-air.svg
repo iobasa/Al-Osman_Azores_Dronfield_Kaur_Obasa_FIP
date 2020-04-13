@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Risk_-_Air" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100.3" style="enable-background:new 0 0 100 100.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFD800;}
+	.st1{fill:#6FCEEA;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{fill:none;stroke:#E1251B;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<g id="Group_230" transform="translate(-694 -2291)">
+	<circle id="Icon" class="st0" cx="744" cy="2341" r="50"/>
+	<g id="Group_169" transform="translate(308.907 1578.906)">
+		<circle id="Ellipse_117" class="st1" cx="435.1" cy="762.1" r="44"/>
+		<g id="Group_168" transform="translate(391.061 718.061)">
+			<g>
+				<defs>
+					<circle id="SVGID_1_" cx="44" cy="44" r="44"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g id="Group_167" transform="translate(0 0)" class="st2">
+					<path id="Path_193" class="st3" d="M-10.9,44.5c8.6-10.1,21-21.3,34.5-19.9C37.7,26.1,42.3,40.2,57,43c9,1.8,22.5-0.5,42-19.3"
+						/>
+					<path id="Path_194" class="st3" d="M-10.9,56.8c8.6-10.1,21-21.3,34.5-19.9C37.7,38.4,42.3,52.5,57,55.3
+						c9,1.8,22.5-0.5,42-19.3"/>
+					<path id="Path_195" class="st3" d="M-10.9,68.7c8.6-10.1,21-21.3,34.5-19.9C37.7,50.4,42.3,64.4,57,67.3C66,69,79.5,66.7,99,48
+						"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

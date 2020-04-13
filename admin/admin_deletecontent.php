@@ -32,21 +32,19 @@
     <table>
         <thead>
             <tr>
-                <th>User ID</th>
-                <th>User Name</th>
-                <th>User Avatar</th>
-                <th>User Access</th>
-                <th>User Admin</th>
-                <th>Delete</th>
+                <th>Myth/Fact ID</th>
+                <th>Myth</th>
+                <th>Fact title</th>
+                <th>Fact Description</th>
             </tr>
         </thead>
         <tbody>
         <?php while($user = $users->fetch(PDO::FETCH_ASSOC)):?>
             <tr>
                 <td><?php echo $user["id"];?></td>
-                <td><?php echo $user["page_title"];?></td>
-                <td><?php echo $user["title"];?></td>
-                <td><?php echo $user["description"];?></td>
+                <td><?php echo $user["myth"];?></td>
+                <td><?php echo $user["fact_title"];?></td>
+                <td><?php echo $user["fact_description"];?></td>
                 <td><a href="admin_deletecontent.php?id=<?php echo $user['id'];?>">Delete</a></td>
             </tr>
         <?php endwhile;?>

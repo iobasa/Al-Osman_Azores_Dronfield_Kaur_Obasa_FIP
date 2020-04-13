@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Diarrhea" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFD800;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#6FCFEB;}
+	.st3{fill:url(#Ellipse_32_1_);}
+	.st4{fill:#E1251A;}
+</style>
+<g id="Group_211" transform="translate(-694 -2291)">
+	<circle id="Icon-2" class="st0" cx="744" cy="2341" r="50"/>
+	<g id="Group_133" transform="translate(234.022 1852.426)">
+		<g>
+			<g>
+				<defs>
+					<circle id="SVGID_1_" cx="510" cy="488.6" r="50"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g id="Mask_Group_1" class="st1">
+					<path id="Rectangle_36" class="st2" d="M492.7,447.7h36.2c6.6,0,12,5.4,12,12v56.9c0,6.6-5.4,12-12,12h-36.2
+						c-6.6,0-12-5.4-12-12v-56.9C480.7,453.1,486,447.7,492.7,447.7z"/>
+					<path id="Rectangle_37" class="st2" d="M493,448.4l1.8,1.3c3.4,2.5,4.2,7.2,1.7,10.6L467.9,500c-2.5,3.4-7.2,4.2-10.6,1.7
+						l-1.8-1.3c-3.4-2.5-4.2-7.2-1.7-10.6l28.6-39.8C484.8,446.7,489.6,445.9,493,448.4z"/>
+					
+						<radialGradient id="Ellipse_32_1_" cx="-208.9266" cy="24.3545" r="0.5001" gradientTransform="matrix(24.23 0 0 24.23 5572.6372 -80.109)" gradientUnits="userSpaceOnUse">
+						<stop  offset="0" style="stop-color:#FF1D25"/>
+						<stop  offset="0.154" style="stop-color:#FF1D25;stop-opacity:0.988"/>
+						<stop  offset="0.283" style="stop-color:#FF1D25;stop-opacity:0.945"/>
+						<stop  offset="0.403" style="stop-color:#FF1D25;stop-opacity:0.878"/>
+						<stop  offset="0.519" style="stop-color:#FF1D25;stop-opacity:0.78"/>
+						<stop  offset="0.63" style="stop-color:#FF1D25;stop-opacity:0.655"/>
+						<stop  offset="0.739" style="stop-color:#FF1D25;stop-opacity:0.502"/>
+						<stop  offset="0.845" style="stop-color:#FF1D25;stop-opacity:0.322"/>
+						<stop  offset="0.947" style="stop-color:#FF1D25;stop-opacity:0.118"/>
+						<stop  offset="1" style="stop-color:#FF1D25;stop-opacity:0"/>
+					</radialGradient>
+					<circle id="Ellipse_32" class="st3" cx="510.3" cy="510" r="12.1"/>
+					<path id="Rectangle_38" class="st2" d="M564.5,500.5l-1.8,1.3c-3.4,2.5-8.2,1.7-10.6-1.7l-28.6-39.8c-2.5-3.4-1.7-8.2,1.7-10.6
+						l1.8-1.3c3.4-2.5,8.2-1.7,10.6,1.7l28.6,39.8C568.7,493.2,567.9,498,564.5,500.5z"/>
+					<path id="Rectangle_39" class="st2" d="M564.7,487.9l1.3,1.8c2.5,3.4,1.7,8.2-1.7,10.6l-39.8,28.6c-3.4,2.5-8.2,1.7-10.6-1.7
+						l-1.3-1.8c-2.5-3.4-1.7-8.2,1.7-10.6l39.8-28.6C557.5,483.7,562.3,484.5,564.7,487.9z"/>
+					<path id="Rectangle_40" class="st2" d="M507.4,525.4l-1.3,1.8c-2.5,3.4-7.2,4.2-10.6,1.7l-39.8-28.6c-3.4-2.5-4.2-7.2-1.7-10.6
+						l1.3-1.8c2.5-3.4,7.2-4.2,10.6-1.7l39.8,28.6C509.1,517.2,509.8,522,507.4,525.4z"/>
+					<path id="Lighting" class="st4" d="M492.8,483.5l7.4,8.4l-4.6,1.8l11.4,8.5l-7-7.6l4.4-2L492.8,483.5z"/>
+					<path id="Lighting-2" class="st4" d="M525.1,481.7l-3.7,10.6l-3.8-3.1l-1.8,14.1l3.2-9.8l3.9,2.8L525.1,481.7z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

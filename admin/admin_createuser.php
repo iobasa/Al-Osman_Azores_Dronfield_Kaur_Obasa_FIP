@@ -7,14 +7,11 @@ if(isset($_POST['submit'])){
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
     $email = trim($_POST['email']);
-    $avatar = trim($_POST['avatar']);
-    $permission = trim($_POST['per']);
-    $admin = trim($_POST['admin']);
 
     if(empty($email) || empty($password) || empty($username) || empty($fname)){
         $message = 'Please fill the required fields';
     }else{
-        $message = createUser($fname, $username, $password, $email, $avatar, $permission, $admin);
+        $message = createUser($fname, $username, $password, $email);
     }
 }
 
@@ -39,12 +36,6 @@ if(isset($_POST['submit'])){
         <input type="text" name="password" value=""><br><br>
         <label>Email</label>
         <input type="email" name="email" value=""><br><br>
-        <label>Avatar</label>
-        <input type="text" name="avatar" value=""><br><br>
-        <label>permssion</label>
-        <input type="text" name="per" value=""><br><br>
-        <label>admin</label>
-        <input type="text" name="admin" value=""><br><br>
         <button name="submit">Create User</button>
     </form>
 </body>

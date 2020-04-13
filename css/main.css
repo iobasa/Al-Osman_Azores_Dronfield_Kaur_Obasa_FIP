@@ -1,1 +1,502 @@
-body{background-color:black;color:red;font-size:16px}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap");
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 50px 50px;
+  padding: 30px 70px;
+  z-index: 5; }
+  .hero .herotext {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .hero .herotext h1 {
+      font-family: "Nunito", sans-serif;
+      font-size: 24px;
+      font-weight: 900 !important;
+      line-height: 25px !important; }
+  .hero .heroimage {
+    width: 80%;
+    margin-top: 10px; }
+    .hero .heroimage img {
+      width: 100%; }
+
+#hiv101 {
+  background-color: #F2CD00; }
+
+#hivprevention {
+  background-color: #9164CC; }
+
+#hivmyths {
+  background-color: #FF5100; }
+
+#hivliving {
+  background-color: #6FCFEB; }
+
+.open {
+  right: 0vw !important; }
+
+.rotate {
+  transform: rotate(-180deg); }
+
+.mobile-nav {
+  background-color: white;
+  width: 100vw;
+  z-index: 300;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  -webkit-box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 4px 33px -15px rgba(0, 0, 0, 0.36); }
+  .mobile-nav .logo img {
+    width: 80%; }
+
+#get-to-know {
+  z-index: 2;
+  right: -100vw;
+  transition: right 1s ease-in-out 0.1s; }
+  #get-to-know img.back {
+    transform: rotate(-180deg);
+    margin-right: 10px;
+    transition: transform 1s ease-in-out 0.1s; }
+  #get-to-know .learn-more-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px; }
+    #get-to-know .learn-more-menu .learn-button {
+      width: 45%;
+      height: 133px;
+      text-align: center;
+      color: white;
+      border-radius: 10px;
+      padding: 25px 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 15px; }
+      #get-to-know .learn-more-menu .learn-button li {
+        list-style-type: none; }
+      #get-to-know .learn-more-menu .learn-button h5 {
+        font-weight: 900;
+        font-size: 12px;
+        text-transform: uppercase; }
+      #get-to-know .learn-more-menu .learn-button img {
+        height: 75px;
+        margin-top: 10px; }
+
+.mobile-nav-open {
+  height: 100vh;
+  width: 100vw;
+  right: -100vw;
+  top: 80px;
+  background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 0 30px;
+  position: fixed;
+  z-index: 1;
+  transition: right 1s ease-in-out 0.1s; }
+  .mobile-nav-open ul {
+    padding-top: 30px; }
+    .mobile-nav-open ul li {
+      padding: 15px 0; }
+      .mobile-nav-open ul li a {
+        color: #E1251B;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        .mobile-nav-open ul li a img {
+          margin-left: 10px;
+          transition: transform 1s, opacity 1s ease; }
+
+#stage-two {
+  background-color: #E1251B;
+  color: white; }
+
+.hiv-stages {
+  width: 100%;
+  color: #E1251B; }
+  .hiv-stages .stages-title {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: left; }
+    .hiv-stages .stages-title h3 {
+      font-size: 18px;
+      text-transform: uppercase; }
+    .hiv-stages .stages-title h1 {
+      font-size: 24px;
+      margin: 10px 0; }
+
+.symptoms .symptoms-img {
+  margin-bottom: 15px; }
+  .symptoms .symptoms-img img {
+    height: 64px; }
+.symptoms h6 {
+  color: #E1251B;
+  font-size: 12px; }
+
+.steps-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #E1251B;
+  background: #F2CD00;
+  width: 100%;
+  padding: 100px 40px 40px 40px;
+  position: relative;
+  margin-top: -50px;
+  z-index: -1; }
+  .steps-section .steps-title {
+    margin-bottom: 30px; }
+  .steps-section .steps-content-section .steps-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 50px; }
+    .steps-section .steps-content-section .steps-content .steps-content-icon {
+      margin-right: 20px; }
+    .steps-section .steps-content-section .steps-content .steps-content-text {
+      text-align: left; }
+
+.living {
+  text-align: left;
+  color: #FF5100; }
+  .living .col-text {
+    order: 2; }
+  .living .col-image {
+    order: 1; }
+    .living .col-image img {
+      width: 250px;
+      padding: 30px 0; }
+
+#pregnant-image {
+  text-align: center; }
+  #pregnant-image img {
+    width: 150px; }
+
+#hiv {
+  background-color: #44C3E8;
+  z-index: -5; }
+
+#aids {
+  background-color: #9164CC;
+  z-index: -6; }
+  #aids p {
+    color: white !important; }
+
+.hiv-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 35px 10%;
+  border-radius: 0 0 50px 50px;
+  margin-top: -50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative; }
+  .hiv-info .col-text {
+    order: 2;
+    text-align: left;
+    margin-top: 25px; }
+    .hiv-info .col-text h1, .hiv-info .col-text h2 {
+      color: white;
+      line-height: 35px; }
+    .hiv-info .col-text p {
+      color: black;
+      margin-top: 10px; }
+  .hiv-info .col-img {
+    order: 1;
+    text-align: center; }
+    .hiv-info .col-img img {
+      width: 30%; }
+
+.cta {
+  padding: 0 35px 30px 35px;
+  color: #E1251B; }
+  .cta h1 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    font-weight: 900;
+    text-align: center; }
+
+.masonry {
+  padding: 50px 50px 10px 50px; }
+  .masonry .cardClass {
+    border: 0 none !important;
+    border-radius: 10px !important;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px !important; }
+    .masonry .cardClass h1 {
+      font-size: 35px !important;
+      line-height: 40px !important; }
+    .masonry .cardClass h4 {
+      font-weight: 900; }
+    .masonry .cardClass a {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px; }
+  .masonry .red {
+    background-color: #E1251B !important; }
+  .masonry .yellow {
+    background-color: #F2CD00 !important; }
+  .masonry .purple {
+    background-color: #9164CC !important; }
+  .masonry .orange {
+    background-color: #FF5100 !important; }
+  .masonry .blue {
+    background-color: #6FCFEB !important; }
+
+.padding-lg {
+  padding: 30px 20px; }
+
+.padding-m {
+  padding: 20 10px; }
+
+.padding-none {
+  padding: 0; }
+
+.learn-more {
+  width: 100%;
+  background-color: #E1251B;
+  border-radius: 50px 50px 0 0;
+  margin-top: -50px;
+  z-index: 10;
+  position: relative; }
+  .learn-more .learn-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 35px; }
+    .learn-more .learn-button h1 {
+      font-size: 45px !important;
+      line-height: 50px !important;
+      color: #F2CD00; }
+    .learn-more .learn-button h5 {
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      font-weight: 900;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      color: white !important; }
+    .learn-more .learn-button img {
+      width: 80%; }
+
+#learn-101 {
+  background-color: #F2CD00; }
+
+#learn-prevent {
+  background-color: #9164CC; }
+
+#learn-myths {
+  background-color: #FF5100; }
+
+#learn-living {
+  background-color: #6FCFEB; }
+
+.modal-backdrop {
+  opacity: 0.9 !important;
+  background-color: #ffcc67 !important; }
+
+.modal-content,
+.modal-container,
+.modal-header {
+  background: none; }
+
+.modal-body {
+  background: white;
+  border-radius: 0 0 30px 30px;
+  padding: 0 0 30px 0; }
+
+.modal-content {
+  border: none; }
+  .modal-content .modal-header {
+    border-bottom: none;
+    padding: 0 0 10px 0; }
+    .modal-content .modal-header .modal-title {
+      display: none; }
+    .modal-content .modal-header .close {
+      color: #E1251B;
+      opacity: 1;
+      transition: transform 0.5s; }
+    .modal-content .modal-header .close:not(:disabled):not(.disabled):focus,
+    .modal-content .modal-header .close:not(:disabled):not(.disabled):hover {
+      opacity: 1;
+      transform: rotate(180deg); }
+
+.mythsfactsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  color: #E1251B; }
+  .mythsfactsContainer h3 {
+    text-transform: uppercase;
+    margin-top: 30px; }
+  .mythsfactsContainer a {
+    color: #E1251B;
+    text-decoration: underline; }
+  .mythsfactsContainer .mythContent,
+  .mythsfactsContainer .factsContent {
+    padding: 0 30px; }
+
+.videoCont {
+  position: relative;
+  width: 100%; }
+  .videoCont .video, .videoCont iframe {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto; }
+
+.mythsbuttons {
+  background-color: #E1251B;
+  border-radius: 30px;
+  width: 204px;
+  height: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; }
+  .mythsbuttons img.icon {
+    margin-top: 10px; }
+
+.mythsbuttons:nth-child(1),
+.mythsbuttons:nth-child(9) {
+  background-color: #9164CC; }
+
+.mythsbuttons:nth-child(2),
+.mythsbuttons:nth-child(7) {
+  background-color: #F2CD00; }
+
+.mythsbuttons:nth-child(3),
+.mythsbuttons:nth-child(4),
+.mythsbuttons:nth-child(8) {
+  background-color: #FF5100; }
+
+.mythsbuttons:nth-child(6) {
+  background-color: #6FCFEB; }
+
+.gettested {
+  display: flex;
+  flex-direction: column;
+  background-color: #FF5100;
+  padding: 40px 40px 50px 40px; }
+  .gettested .testtext {
+    text-align: left;
+    color: white;
+    margin-bottom: 30px; }
+    .gettested .testtext h3 {
+      text-transform: uppercase; }
+    .gettested .testtext h1 {
+      margin-top: 5px; }
+    .gettested .testtext .button {
+      margin-top: 15px;
+      padding: 5px 25px;
+      background-color: #F2CD00;
+      border: none;
+      color: #E1251B;
+      font-family: "Nunito", sans-serif; }
+  .gettested .testimage img {
+    width: 40%; }
+
+.risks {
+  padding: 35px; }
+  .risks h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #E1251B;
+    text-align: left;
+    letter-spacing: 1px; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 40px;
+  -webkit-box-shadow: 0px -4px 33px -15px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px -4px 33px -15px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px -4px 33px -15px rgba(0, 0, 0, 0.36); }
+  .footer h3 {
+    text-transform: uppercase;
+    color: #E1251B;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1.3;
+    margin: 25px 0; }
+  .footer ul.social {
+    list-style-type: none; }
+    .footer ul.social li {
+      display: inline-block;
+      margin: 0 10px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-family: 'Nunito', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 900 !important;
+  line-height: 25px !important; }
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 900 !important; }
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 600 !important;
+  letter-spacing: 2px; }
+
+h3.light {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+h6 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  font-weight: 600 !important;
+  letter-spacing: 1px; }
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px; }
+
+/*# sourceMappingURL=main.css.map */

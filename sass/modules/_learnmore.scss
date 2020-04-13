@@ -1,0 +1,52 @@
+.learn-more {
+    width: 100%;
+    background-color: $red;
+    // padding: 50px 30px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -50px;
+    z-index: 10;
+    position: relative;
+
+    .learn-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px 35px;
+
+        h1 {
+           font-size: 45px!important; 
+           line-height: 50px!important;
+           color: $yellow;
+        }
+
+        h5 {
+            font-family: $Nunito;
+            font-size: 12px;
+            font-weight: 900;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: white!important;
+        }
+        img {
+            width: 80%;
+        }
+    }
+}
+
+#learn-101 {
+    background-color: #F2CD00;
+}
+#learn-prevent {
+    background-color: #9164CC;
+}
+
+#learn-myths {
+    background-color: #FF5100;
+}
+
+#learn-living {
+    background-color: #6FCFEB;
+}

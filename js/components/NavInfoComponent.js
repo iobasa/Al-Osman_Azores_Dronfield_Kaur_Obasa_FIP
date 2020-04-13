@@ -1,6 +1,6 @@
-import HIV101Component from './HIV101Component.js';
-import LivingComponent from './LivingComponent.js';
-import MythsComponent from './MythsComponent.js';
+import Myth1Component from './Myth1Component.js';
+import Myth2Component from './Myth2Component.js';
+import Myth3Component from './Myth3Component.js';
 
 //DO NOT TOUCH THIS COMPONENT OR CODE IN THSI COMPONENT!!!!!!
 
@@ -30,12 +30,12 @@ export default {
 
     data: function() {
         return {
-            activeComponent: HIV101Component,
+            activeComponent: Myth1Component,
             
             mediaTypes: [
-                { description: "LIVING WITH HIV", component: HIV101Component },
-                { description: "HIV 101", component: LivingComponent },
-                {  description: "Myths", component: MythsComponent },
+                { description: "LIVING WITH HIV", component: Myth1Component },
+                { description: "HIV 101", component: Myth2Component },
+                {  description: "Myths", component: Myth3Component },
             ]
         }
     },

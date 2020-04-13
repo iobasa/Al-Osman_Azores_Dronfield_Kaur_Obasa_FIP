@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="172.454" height="181.683" viewBox="0 0 172.454 181.683">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="body" d="M1424.046,215.534c9.977.062,20.084-.128,33.538-5.9,21.611-9.272,20.727-40.107,11.309-53.889-5.473-8.009-5.107-29.887-5.107-29.887s6.529-30.6-17-47.887c-8.729-6.414-23.305-5.933-23.305-5.933h-2.323s-14.576-.481-23.305,5.933c-23.531,17.289-17,47.887-17,47.887s.825,21.878-4.649,29.887c-9.418,13.782-10.3,44.617,11.309,53.889,13.455,5.773,23.259,5.961,33.236,5.9Z" transform="translate(-1369.88 -72.029)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="body-2" data-name="body" d="M1095.734,221.72c0,28.957-18.646,40.143-41.646,40.143s-41.645-7.909-41.645-36.866c0-13.4,9.992-40.3,16.56-49.564,7.627-10.761,12.728-18.433,25.085-18.433,11.466,0,16.336,7.356,23.867,16.794C1085.532,183.289,1095.734,207.2,1095.734,221.72Z" transform="translate(-1012.443 -157)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_250" data-name="Group 250" transform="translate(-67.85 -3365.229)">
+    <g id="Component_11_6" data-name="Component 11 – 6" transform="translate(124.734 3365.229)">
+      <path id="right_leg" data-name="right leg" d="M1584.749,430.644h-14.988s15.087-18.962,1-30.44" transform="translate(-1483.226 -263.423)" fill="none" stroke="#ba9bc9" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      <path id="left_leg" data-name="left leg" d="M1393.882,430.644h14.988s-15.087-18.962-1-30.44" transform="translate(-1380.574 -263.423)" fill="none" stroke="#ba9bc9" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      <path id="body-3" data-name="body" d="M1424.046,215.534c9.977.062,20.084-.128,33.538-5.9,21.611-9.272,20.727-40.107,11.309-53.889-5.473-8.009-5.107-29.887-5.107-29.887s6.529-30.6-17-47.887c-8.729-6.414-23.305-5.933-23.305-5.933h-2.323s-14.576-.481-23.305,5.933c-23.531,17.289-17,47.887-17,47.887s.825,21.878-4.649,29.887c-9.418,13.782-10.3,44.617,11.309,53.889,13.455,5.773,23.259,5.961,33.236,5.9Z" transform="translate(-1366.565 -72.029)" fill="#ba9bc9"/>
+      <g id="Shadow" transform="translate(3.315)">
+        <g id="Group_26" data-name="Group 26" clip-path="url(#clip-path)">
+          <path id="Path_45" data-name="Path 45" d="M1353.444,314.865s6.265,30.344,59.509,28.861,60.4-28.861,60.4-28.861l-.987,42.3H1353.444Z" transform="translate(-1360.287 -213.652)" fill="#624964"/>
+        </g>
+      </g>
+      <ellipse id="left_eye" data-name="left eye" cx="6.303" cy="7.979" rx="6.303" ry="7.979" transform="translate(37.353 41.036)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="left_eye_shine" data-name="left eye shine" cx="3.972" cy="3.569" rx="3.972" ry="3.569" transform="translate(39.747 41.036)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="right_eye" data-name="right eye" cx="6.303" cy="7.979" rx="6.303" ry="7.979" transform="translate(61.545 41.036)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="right_eye_shine" data-name="right eye shine" cx="3.972" cy="3.569" rx="3.972" ry="3.569" transform="translate(63.94 41.036)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="mouth" d="M1473.176,232.219c1.649,3.576,5.914,5.9,10.515,5.751,4.354-.139,8.218-2.463,9.716-5.859" transform="translate(-1426.854 -165.39)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="mouth-2" data-name="mouth" d="M1439.414,155.042c3.94-8.545,13.392-7.884,24.392-7.938,10.074-.049,20.372.083,23.953,8.2" transform="translate(-1407.149 -115.81)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <g id="A" transform="translate(38.358 100.034)">
+        <path id="Path_46" data-name="Path 46" d="M1478.366,343.941l-1.344-4.5h-11.164l-1.344,4.5h-10.468l11.627-31.9h11.9l11.627,31.9ZM1467.99,332.3h6.9l-3.335-11.361h-.186Z" transform="translate(-1454.047 -312.037)" fill="#1a1a1a"/>
+      </g>
+      <path id="left_arm" data-name="left arm" d="M1374.488,263.509s-21.158,21.59-8.575,51.415" transform="translate(-1361.918 -183.701)" fill="none" stroke="#ba9bc9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7"/>
+      <path id="right_arm" data-name="right arm" d="M1600.757,190.924s21.158-21.591,8.576-51.415" transform="translate(-1501.317 -111.384)" fill="none" stroke="#ba9bc9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7"/>
+    </g>
+    <g id="Component_13_8" data-name="Component 13 – 8" transform="translate(67.85 3424.483)">
+      <path id="right_leg-2" data-name="right leg" d="M1182.259,439.6H1172.1s10.225-12.887.675-20.689" transform="translate(-1111.535 -319.171)" fill="none" stroke="#29abe2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="left_leg-2" data-name="left leg" d="M1041.27,439.6h10.158s-10.225-12.887-.675-20.689" transform="translate(-1030.335 -319.171)" fill="none" stroke="#29abe2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="body-4" data-name="body" d="M1095.734,221.72c0,28.957-18.646,40.143-41.646,40.143s-41.645-7.909-41.645-36.866c0-13.4,9.992-40.3,16.56-49.564,7.627-10.761,12.728-18.433,25.085-18.433,11.466,0,16.336,7.356,23.867,16.794C1085.532,183.289,1095.734,207.2,1095.734,221.72Z" transform="translate(-1012.443 -157)" fill="#29abe2"/>
+      <g id="shadow-2" data-name="shadow">
+        <g id="Group_27" data-name="Group 27" clip-path="url(#clip-path-2)">
+          <path id="Path_49" data-name="Path 49" d="M979.232,310.182s11.581,36.4,54.213,35.968,54.734-35.968,54.734-35.968v47.911H979.232Z" transform="translate(-991.83 -251.848)" fill="#0071bc"/>
+        </g>
+      </g>
+      <path id="left_tooth" data-name="left tooth" d="M1109.024,316.824c-.814-.166-1.888-1.045-1.94-.937-.309.645-1.285,2.862-.629,3.7.787,1,2.38.932,3.416-.794a10.224,10.224,0,0,0,.789-1.6Z" transform="translate(-1070.654 -255.375)" fill="#fff"/>
+      <path id="left_tooth-2" data-name="left tooth" d="M1128.036,316.824c.814-.166,1.888-1.045,1.94-.937.309.645,1.285,2.862.629,3.7-.787,1-2.38.932-3.416-.794a10.2,10.2,0,0,1-.79-1.6Z" transform="translate(-1083.17 -255.375)" fill="#fff"/>
+      <ellipse id="left_eye-2" data-name="left eye" cx="7.729" cy="7.936" rx="7.729" ry="7.936" transform="translate(24.4 32.624)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="left_eye_shine-2" data-name="left eye shine" cx="4.871" cy="4.389" rx="4.871" ry="4.389" transform="translate(27.336 32.802)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="right_eye-2" data-name="right eye" cx="7.729" cy="7.936" rx="7.729" ry="7.936" transform="translate(43.855 32.624)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="right_eye_shine-2" data-name="right eye shine" cx="4.871" cy="4.389" rx="4.871" ry="4.389" transform="translate(46.791 32.802)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="H" transform="translate(30.812 74.623)">
+        <path id="Path_50" data-name="Path 50" d="M1108.344,374.8v-8.288h-7.687V374.8h-6.99V352.957h6.99v7.97h7.687v-7.97h6.99V374.8Z" transform="translate(-1093.667 -352.957)" fill="#1a1a1a"/>
+      </g>
+      <path id="mouth-3" data-name="mouth" d="M1104.477,309.74a7.354,7.354,0,0,0,7,3.882,7.205,7.205,0,0,0,6.467-3.955" transform="translate(-1069.564 -251.529)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
