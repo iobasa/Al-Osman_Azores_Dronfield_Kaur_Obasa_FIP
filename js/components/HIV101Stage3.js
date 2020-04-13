@@ -18,8 +18,8 @@ export default{
     </div>
 
     <div class="container">
-        <div class="row px-3">
-            <div class="col symptoms px-1 pb-5" cols="4" v-for="threesymptom in threesymptoms" :key="threesymptom.id" v-bind:threesymptom="threesymptoms">
+    <div class="row px-3 px-lg-0">
+    <div class="col symptoms px-1 px-lg-0 pb-5" cols="4" lg="3" v-for="threesymptom in threesymptoms" :key="threesymptom.id" v-bind:threesymptom="threesymptoms">
                 <div class="symptoms-img">
                     <img :src=" 'images/' + 'symptoms-' + threesymptom.image ">
                 </div>

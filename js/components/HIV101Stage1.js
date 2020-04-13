@@ -19,8 +19,8 @@ export default {
     </div>
 
     <div class="container">
-        <div class="row px-3">
-            <div class="col symptoms px-1 pb-5" cols="4" v-for="symptom in onesymptoms" :key="symptom.id" v-bind:symptom="onesymptoms">
+            <div class="row px-3 px-lg-0">
+                <div class="col symptoms px-1 px-lg-0 pb-5" cols="4" lg="3" v-for="symptom in onesymptoms" :key="symptom.id" v-bind:symptom="onesymptoms">
                 <div class="symptoms-img">
                     <img :src=" 'images/' + 'symptoms-' + symptom.image ">
                 </div>

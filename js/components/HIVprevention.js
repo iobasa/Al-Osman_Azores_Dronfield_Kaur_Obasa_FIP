@@ -39,7 +39,7 @@ export default {
 
         <div class="container">
             <div class="row px-3">
-                <div class="col symptoms px-1 pb-5" cols="4" v-for="risk in risks" :key="risk.id" v-bind:risk="risks">
+                <div class="col symptoms px-1 pb-5 col-lg-3 col-4"  v-for="risk in risks" :key="risk.id" v-bind:risk="risks">
                     <div class="symptoms-img">
                         <img :src=" 'images/' + 'risk-' + risk.image ">
                     </div>
@@ -56,7 +56,7 @@ export default {
 
         <div class="container">
             <div class="row px-3">
-                <div class="col symptoms px-1 pb-5" cols="4" v-for="notrisk in notrisks" :key="notrisk.id" v-bind:notrisk="risks">
+                <div class="col symptoms px-1 px-lg-0 pb-5 col-lg-3 col-4" cols="4" lg="3" v-for="notrisk in notrisks" :key="notrisk.id" v-bind:notrisk="risks">
                     <div class="symptoms-img">
                         <img :src=" 'images/' + 'risk-' + notrisk.image ">
                     </div>
@@ -67,30 +67,37 @@ export default {
         </div>
     
     <!-- PREVENT -->
-    <prevention v-bind:preventions="preventions"/>
+    <prevention class="prevent-padding" v-bind:preventions="preventions"/>
     <gettested />
 
     <!-- LEARN MORE -->
-    <div class="container learn-more">
+    <div class="learn-more">
         <div class="row px-5 justify-content-center">
-            <div class="col learn-button my-3" cols="10" id="learn-text">
+            
+            <div class="col-12 learn-button my-3"  id="learn-text">
             <h1>Learn More</h1>
             </div>
             
-            <div class="col learn-button my-3" cols="10" id="learn-101">
-            <h5>Prevention</h5>
+            <router-link to="/hiv-101" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-101">
+            <h5>HIV 101</h5>
             <img src="images/hero-hiv101.svg" alt="HIV prevention"> 
             </div>
+            </router-link>
 
-            <div class="col learn-button my-3" cols="10" id="learn-myths">
+            <router-link to="/myths" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-myths">
             <h5>Myths</h5>
             <img src="images/hiv-myth.svg" alt="HIV myths">
             </div>
+            </router-link>
 
-            <div class="col learn-button my-3" cols="10" id="learn-living">
+            <router-link to="/hiv-living" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-living">
             <h5>Living with HIV</h5>
                 <img src="images/hiv-living.svg" alt="Living with HIV"> 
             </div>
+            </router-link>
         </div>
     </div>
 

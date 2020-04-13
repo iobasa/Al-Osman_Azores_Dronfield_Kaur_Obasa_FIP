@@ -52,27 +52,35 @@ export default {
     <gettested />
 
     <!-- LEARN MORE -->
-    <div class="container learn-more">
+    <div class="learn-more">
       <div class="row px-5 justify-content-center">
-        <div class="col learn-button my-3" cols="10" id="learn-text">
+      <div class="col-12 learn-button my-3"" md="4" id="learn-text">
           <h1>Learn More</h1>
         </div>
         
-        <div class="col learn-button my-3" cols="10" id="learn-prevent">
+        <router-link to="/hiv-prevention" tag="li">
+        <div class="col-12 learn-button my-3" md="4" id="learn-prevent">
           <h5>Prevention</h5>
           <img src="images/hiv-prevention.svg" alt="HIV prevention"> 
         </div>
+        </router-link>
 
-        <div class="col learn-button my-3" cols="10" id="learn-myths">
+        <router-link to="/myths" tag="li">
+        <div class="col-12 learn-button my-3" md="4" id="learn-myths">
           <h5>Myths</h5>
           <img src="images/hiv-myth.svg" alt="HIV myths">
         </div>
+        </router-link>
 
-        <div class="col learn-button my-3" cols="10" id="learn-living">
+        <router-link to="/hiv-living" tag="li">
+        <div class="col-12 learn-button my-3" md="4" id="learn-living">
           <h5>Living with HIV</h5>
             <img src="images/hiv-living.svg" alt="Living with HIV"> 
         </div>
-      </div>
+        </router-link>
+
+
+    </div>
     </div>
 
     <footers/>

@@ -55,8 +55,6 @@ h6 {
     letter-spacing: 1px;
 }
 
-
-
 // h4 { font-size: 24pt; }
 // h5 { font-size: 20pt; font-weight: 400; line-height: 35px; letter-spacing: 1px; }
 // h6 { font-size: 18pt; }
@@ -65,6 +63,48 @@ p {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
 }
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 36px!important;
+        line-height: 36px!important;
+    }
+
+    h2 {
+        font-size: 24px!important;
+    }
+
+    h3 {
+        font-size: 26px!important;
+    }
+
+    h3.light {
+        font-size: 24px!important;
+    }
+
+    p {
+        font-size: 20px!important;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+      font-size: 60px!important;
+      line-height: 60px!important;
+  }
+
+  h2 {
+      font-size: 46px!important;
+  }
+
+  h3, h3.light {
+      font-size: 36px!important;
+  }
+
+}
+
+
 // h1 { font-size: 80pt; line-height: 80px;}
 // h2 { font-size: 60pt; line-height: 75px;}
 // h3 { font-size: 36pt; line-height: 55px;}

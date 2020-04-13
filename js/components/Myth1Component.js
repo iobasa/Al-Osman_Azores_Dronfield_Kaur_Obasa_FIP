@@ -1,13 +1,15 @@
+
+
 export default {
     name: "TheMyth1Component",
 
     // The page for the HIV 101 Page, please code around the content already shown
 
     template: `
-    <section>
+    <section id="modal-facts___BV_modal_body_" >
 
     <section class="videoCont">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{currentMediaDetails.video_id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" :src=" 'https://www.youtube.com/embed/' + currentMediaDetails.video_id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
                 </section>
 

@@ -1,110 +1,244 @@
 .modal-backdrop {
-    opacity: 0.9 !important;
-    background-color: #ffcc67 !important;
-  }
-  
-  .modal-content,
-  .modal-container,
+  opacity: 0.9 !important;
+  background-color: #ffcc67 !important;
+}
+
+.modal-content,
+.modal-container,
+.modal-header {
+  background: none;
+}
+
+.modal-body {
+    background: white;
+    border-radius: 0 0 30px 30px;
+    padding: 0 0 30px 0;
+}
+
+.modal-content {
+  border: none;
+
   .modal-header {
-    background: none;
-  }
-  
-  .modal-body {
-      background: white;
-      border-radius: 0 0 30px 30px;
-      padding: 0 0 30px 0;
-  }
-  
-  .modal-content {
-    border: none;
-  
-    .modal-header {
-      border-bottom: none;
-      padding: 0 0 10px 0;
-  
-      .modal-title {
-        display: none;
-      }
-  
-      .close {
-        color: $red;
-        opacity: 1;
-        transition: transform 0.5s;
-      }
-  
-      .close:not(:disabled):not(.disabled):focus,
-      .close:not(:disabled):not(.disabled):hover {
-        opacity: 1;
-        transform: rotate(180deg);
-      }
+    border-bottom: none;
+    background: none !important;
+    padding: 0 0 10px 0;
+
+    .modal-title {
+      display: none;
+    }
+
+    .close {
+      color: $red;
+      opacity: 1;
+      transition: transform 0.5s;
+    }
+
+    .close:not(:disabled):not(.disabled):focus,
+    .close:not(:disabled):not(.disabled):hover {
+      opacity: 1;
+      transform: rotate(180deg);
     }
   }
-  
-  
-  .mythsfactsContainer {
-      display: flex;
-      flex-direction: column;
-      padding: 0 50px;
-      color: $red;
-  
-      h3 {
-          text-transform: uppercase;
-          margin-top: 30px;
+}
+
+
+
+.mythsfactsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    color: $red;
+
+    h3 {
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    a { color: $red; text-decoration: underline;}
+
+    .factsContent {
+        img {
+            margin-left: 10px;
+        }
+    }
+
+    .mythContent,
+    .factsContent {
+        padding: 0 30px;
+    }
+}
+
+.modal-content{
+  border-radius: 0 0 30px 30px !important;
+  border: none !important;
+}
+
+// VIDEO IN MODAL
+.videoCont {
+    position: relative;
+    width: 100%;
+
+    .video, iframe {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 auto;
+    }
+}
+
+.mythsbuttons {
+    background-color: $red;
+    border-radius: 30px;
+    width: 204px;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    img.icon {
+        margin-top: 10px;
+    }
+}
+
+// DIFF COLORS
+.mythsbuttons:nth-child(1),
+.mythsbuttons:nth-child(9) {
+    background-color: $purple;
+}
+
+.mythsbuttons:nth-child(2),
+.mythsbuttons:nth-child(7) {
+    background-color: $yellow;
+}
+
+.mythsbuttons:nth-child(3),
+.mythsbuttons:nth-child(4),
+.mythsbuttons:nth-child(8) {
+    background-color: $orange;
+}
+
+.mythsbuttons:nth-child(6) {
+    background-color: $blue;
+}
+
+@media screen and (min-width:768px){
+  .mythsbuttons h1{
+    font-size: 24px !important;
+    line-height: 25px !important;
+  }
+  .mythsfactsContainer h2{
+    font-size: 24px!important;
+  }
+
+  .mythsfactsContainer h3{
+    font-size: 13px!important;
+  }
+
+  .mythsfactsContainer p{
+    font-size: 20px!important;
+  }
+  }
+
+
+@media screen and (min-width:1280px){
+.mythsbuttons h1{
+  font-size: 36px !important;
+  line-height: 37px !important;
+}
+
+.mythsfactsContainer p{
+  font-size: 20px!important;
+}
+
+.mythsfactsContainer h3{
+  font-size: 13px!important;
+}
+
+.mythsfactsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 50px;
+  color: $red;
+
+  h3 {
+      text-transform: uppercase;
+      margin-top: 30px;
+  }
+
+  a { color: $red; text-decoration: underline;}
+
+  .factsContent {
+      img {
+          margin-left: 10px;
       }
-  
-      a { color: $red; text-decoration: underline;}
-  
-      .mythContent,
-      .factsContent {
-          padding: 0 30px;
-      }
   }
-  
-  .videoCont {
-      position: relative;
-      width: 100%;
-  
-      .video, iframe {
-          top: 0 !important;
-          left: 0 !important;
-          width: 100% !important;
-          height: 100% !important;
-          margin: 0 auto;
-      }
+
+  .mythContent,
+  .factsContent {
+      padding: 0 30px;
   }
-  
-  .mythsbuttons {
-      background-color: $red;
-      border-radius: 30px;
-      width: 100%;
-      height: 249px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: white;
-  
-      img.icon {
-          margin-top: 10px;
-      }
-  }
-  
-  .mythsbuttons:nth-child(1),
-  .mythsbuttons:nth-child(9) {
-      background-color: $purple;
-  }
-  
-  .mythsbuttons:nth-child(2),
-  .mythsbuttons:nth-child(7) {
-      background-color: $yellow;
-  }
-  
-  .mythsbuttons:nth-child(3),
-  .mythsbuttons:nth-child(4),
-  .mythsbuttons:nth-child(8) {
-      background-color: $orange;
-  }
-  
-  .mythsbuttons:nth-child(6) {
-      background-color: $blue;
-  }
+}
+}
+
+
+
+
+
+
+
+
+  .risks {
+    padding: 35px;
+
+    h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $red;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .risks {
+        padding: 35px 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #hiv-risks {
+        .stages-title {
+            padding: 100px 70px;
+            align-items: center;
+
+            .col-title {
+                width: 70%;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .mythsfactsContainer h2{
+      font-size: 36px!important;
+    }
+
+    .prevent-padding {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #hiv-risks {
+        .stages-title {
+            padding: 100px 150px;
+        }
+    }
+
+    .risks {
+        padding: 50px 150px;
+    }
+}

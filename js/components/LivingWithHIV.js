@@ -44,7 +44,7 @@ export default {
                     </div>
         
                     <div class="steps-content-text">
-                        <h1>Brain</h1>
+                        <h1>Educate</h1>
                         <p>
                             Receiving a diagnosis of HIV can be a life-changing event. People can feel many emotions—sadness, hopelessness, and anger. However, the first step is to accept your diagnosis and proceed to taking the measures.
                         </p>
@@ -84,10 +84,10 @@ export default {
                     <img src="images/life-happy.svg" alt="Happy person surrounded by characters">
                 </div>
             </div>
-        </div >
+        </div>
 
         <div class="container living mt-5">
-            <div class="row justify-content-center px-4">
+            <div class="row justify-content-center px-4 reverse">
                 <!-- DATING -->
                 <div class="col col-text" id="dating" cols="12">
                     <h3 class="light">Dating with HIV</h3>
@@ -112,9 +112,9 @@ export default {
                     <img src="images/life-love.svg" alt="Happy person surrounded by characters">
                 </div>
             </div>
-        </div >
+        </div>
 
-        <div class="container living my-5" >
+        <div class="container living my-5">
             <div class="row justify-content-center px-4">
                 <div class="col col-text" id="pregnancy" cols="12">
                     <h3 class="light">Pregnancy with HIV</h3>
@@ -128,34 +128,44 @@ export default {
                     <img src="images/life-pregnant.svg" alt="Happy person surrounded by characters">
                 </div>
             </div>
-        </div >
+        </div>
 
         <gettested />
+
+
         <!-- LEARN MORE -->
-        <div class="container learn-more">
-            <div class="row px-5 justify-content-center">
-                <div class="col learn-button my-3 " cols="10" id="learn-text">
-                <h1>Learn More</h1>
-                </div>
-                
-                <div class="col learn-button my-3" cols="10" id="learn-101">
-                <h5>Prevention</h5>
-                <img src="images/hero-hiv101.svg" alt="HIV prevention"> 
-                </div>
-
-                <div class="col learn-button my-3" cols="10" id="learn-prevent">
-                <h5>HIV Prevention</h5>
-                    <img src="images/hiv-prevention.svg" alt="Prevention"> 
-                </div>
-
-                <div class="col learn-button my-3" cols="10" id="learn-myths">
-                <h5>Myths</h5>
-                <img src="images/hiv-myth.svg" alt="HIV myths">
-                </div>
-
+    <div class="learn-more">
+        <div class="row px-5 justify-content-center">
+            
+            <div class="col-12 learn-button my-3"  id="learn-text">
+            <h1>Learn More</h1>
             </div>
-        </div >
+            
+            <router-link to="/hiv-101" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-101">
+            <h5>HIV 101</h5>
+            <img src="images/hero-hiv101.svg" alt="HIV 101"> 
+            </div>
+            </router-link>
+
+            <router-link to="/hiv-prevention" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-prevent">
+            <h5>Prevention</h5>
+            <img src="images/hiv-prevention.svg" alt="HIV prevention">
+            </div>
+            </router-link>
+
+            <router-link to="/myths" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-myths">
+            <h5>Myths</h5>
+                <img src="images/hiv-myth.svg" alt="learn-myths"> 
+            </div>
+            </router-link>
+        </div>
     </div>
+
+
+
 
     <footers/>
         </div>

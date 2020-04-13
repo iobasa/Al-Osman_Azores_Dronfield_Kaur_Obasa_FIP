@@ -1,165 +1,377 @@
 #stage-two {
-    background-color: $red;
-    color: white;
+  background-color: $red;
+  color: white;
 }
 
 .hiv-stages {
-    width: 100%;
-    color: $red;
+  width: 100%;
+  color: $red;
 
-    .stages-title {
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
+  .stages-title {
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
 
-        h3 {
-            font-size: 18px;
-            text-transform: uppercase;
-        }
+      h3 {
+          font-size: 18px;
+          text-transform: uppercase;
+      }
 
-        h1 {
-            font-size: 24px;
-            margin: 10px 0;
-        }
-    }
+      h1 {
+          font-size: 24px;
+          margin: 10px 0;
+      }
+  }
 }
 
 .symptoms {
-    .symptoms-img {
-        margin-bottom: 15px;
-        img {
-            height: 64px;
-        }
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .symptoms-img {
+      margin-bottom: 15px;
+      img {
+          height: 64px;
+      }
+  }
 
-    h6 {
-        color: $red;
-        font-size: 12px;
-    }
+  h6 {
+      color: $red;
+      font-size: 12px;
+      text-align: center;
+  }
 }
 
+@media screen and (min-width: 768px) {
+.hiv-stages {
+  .stages-title {
+      padding: 70px;
+
+      .col-desc {
+          width: 70%;
+      }
+  }
+}
+
+.symptoms {
+  .symptoms-img {
+      img {
+          height: 100px;
+      }
+  }
+
+  h6 {
+      font-size: 20px;
+      width: 60%;
+  }
+}
+}
+
+@media screen and (min-width: 1024px) {
+.hiv-stages {
+  .stages-title {
+      flex-direction: row;
+      padding: 100px 150px;
+  }
+}
+
+#stage-two {
+  .stages-title {
+      .col-title {
+          order: 2;
+          text-align: right;
+      }
+
+      .col-desc {
+          order: 1;
+      }
+  }
+}
+}
+
+@media screen and (min-width: 1024px) {
+.hiv-stages {
+  .stages-title {
+      justify-content: space-between;
+
+      .col-title {
+
+      }
+
+      .col-desc {
+          width: 45%;
+      }
+  }
+}
+}
+
+
+
+
+
+
+
+
+
 .steps-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: $red;
-    background: $yellow;
-    width: 100%;
-    padding: 100px 40px 40px 40px;
-    position: relative;
-    margin-top: -50px;
-    z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $red;
+  background: $yellow;
+  width: 100%;
+  padding: 100px 40px 40px 40px;
+  position: relative;
+  margin-top: -50px;
+  z-index: -1;
 
 
-    .steps-title {
-        margin-bottom: 30px;
-        h1 {
+  .steps-title {
+      margin-bottom: 30px;
+      h1 {
 
-        }
-    }
-
-    .steps-content-section {
-        .steps-content {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            width: 100%;
-            margin-bottom: 50px;
-
-            .steps-content-icon {
-                margin-right: 20px;
-                img {
-                }
-            }
-
-            .steps-content-text {
-                text-align: left;
-
-               h3 {
-                }
-
-                .p {
-                }
-            }
-        }
-    }
- }
-
- .living {
-    text-align: left;
-    color: $orange;
-
-    .col-text {
-        order: 2;
-    }
-
-    .col-image {
-        order: 1;
-        img {
-            width: 250px;
-            padding: 30px 0;
-        }
-    }
- }
-
- #pregnant-image {
-    text-align: center;
-    img {
-        width: 150px;
-    }
- }
-
- #hiv {
-    background-color: #44C3E8;
-    z-index: -5;
+      }
   }
-  
-  #aids {
-    background-color: $purple;
-    z-index: -6;
-  
-    p {
-      color: white!important;
-    }
+
+  .steps-content-section {
+      .steps-content {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          width: 100%;
+          margin-bottom: 50px;
+
+          .steps-content-icon {
+              margin-right: 20px;
+              img {
+              }
+          }
+
+          .steps-content-text {
+              text-align: left;
+
+              h3 {
+              }
+
+              p {
+              }
+          }
+      }
   }
-  
-  .hiv-info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 35px 10%;
-    border-radius: 0 0 50px 50px;
-    margin-top: -50px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    position: relative;
-  
-    .col-text {
+}
+
+.living {
+  text-align: left;
+  color: $orange;
+
+  .col-text {
       order: 2;
-      text-align: left;
-      margin-top: 25px;
-  
-      h1, h2 {
-        color: white;
-        line-height: 35px;
-      }
-  
-      p {
-        color: black;
-        margin-top: 10px;
-      }
-    }
-  
-    .col-img {
+  }
+
+  .col-image {
       order: 1;
       text-align: center;
-  
       img {
-        width: 30%;
+          width: 250px;
+          padding: 30px 0;
+      }
+  }
+}
+
+#pregnant-image {
+  text-align: center;
+  img {
+      width: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .steps-section {
+      flex-direction: row;
+      padding: 130px 80px 50px 80px;
+      
+      .steps-title {
+          width: 40%;
+          padding-right: 50px;
+      }
+
+      .steps-content-section {
+          width: 60%;
+          padding-left: 30px;
+          border-left: 5px $red solid;
+          
+      }
+  }
+
+  .living {
+      .col-text {
+          order: 1;
+      }
+
+      .col-image {
+          width: 100%!important;
+          order: 2;
+      }
+  }
+
+  #dating-content {
+      .col-text {
+          order: 2!important;
+      }
+
+      .col-image {
+          order: 1!important;
+      }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .living {
+      padding: 50px 100px;
+
+      .col-image {
+          img {
+              width: 100%!important;
+          }
+      }
+  }
+
+  #dating-content {
+      .col-image {
+          padding-right: 10px;
+      }
+  }
+
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 1280px) {
+  .steps-section {
+      flex-direction: row;
+      padding: 130px 200px 100px 200px;
+      
+      .steps-title {
+          width: 40%;
+          padding-right: 50px;
+      }
+
+      .steps-content-section {
+          width: 50%;
+          padding-top: 80px;
+          padding-left: 100px;
+          border-left: 5px $red solid;
+      }
+  }
+}
+
+ #hiv {
+  background-color: #44C3E8;
+  z-index: -5;
+}
+
+#aids {
+  background-color: $purple;
+  z-index: -6;
+
+  p {
+    color: white!important;
+  }
+}
+
+.hiv-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 35px 10%;
+  border-radius: 0 0 50px 50px;
+  margin-top: -50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+
+  .col-text {
+    order: 2;
+    text-align: left;
+    margin-top: 25px;
+
+    h1, h2 {
+      color: white;
+      line-height: 35px;
+    }
+
+    p {
+      color: black;
+      margin-top: 10px;
+    }
+  }
+
+  .col-img {
+    order: 1;
+    text-align: center;
+
+    img {
+      width: 30%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hiv-info {
+    padding: 100px 70px;
+    flex-direction: row;
+    align-items: center;
+
+    .col-text {
+      width: 60%;
+    }
+
+    .col-img {
+      width: 40%;
+      text-align: center;
+
+      img {
+        width: 60%;
       }
     }
+  }
+
+  #hiv {
+    .col-text {
+      order: 1;
+    }
+
+    .col-img {
+      order: 2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hiv-info {
+    padding: 150px 150px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hiv-info {
+    padding: 150px 250px;
+  }   
+}
+
+@media screen and (min-width: 1024px) {
+  .hiv-info {
+    justify-content: space-between;
+    .col-text {
+      width: 50%;
+    }
+  }
+
 }
 
 .cta {
@@ -176,6 +388,8 @@
   }
   .masonry {
     padding: 50px 50px 10px 50px;
+    position: relative;
+    z-index: -1;
   
     .cardClass {
       border: 0 none!important;
