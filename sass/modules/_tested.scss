@@ -28,8 +28,10 @@
     }
 
     .testimage {
+        text-align: center;
         img {
             width: 40%;
+    
         }
     }
 }
@@ -43,5 +45,37 @@
         color: $red;
         text-align: left;
         letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gettested {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .testtext {
+            order: 2;
+            margin-bottom: 0;
+            margin-left: 30px;
+        }
+
+        .testimage {
+            order: 1;
+            img {
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gettested {
+        .testtext {
+            h1 {
+                font-size: 80px!important;
+                line-height: 80px!important;
+            }
+        }
     }
 }

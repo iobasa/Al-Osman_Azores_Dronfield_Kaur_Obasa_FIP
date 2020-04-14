@@ -7,12 +7,12 @@ import Myth6Component from './Myth6Component.js';
 
 export default{
     template: `
-        <div class="container ">
+    <div class="container ">
 
-        <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
+    <div class="row px-5 p-md-3 my-lg-5 justify-content-center">
 
-        <div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+    <div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter1">
 <div>
@@ -22,13 +22,12 @@ export default{
 </div>
 
 </div>
-</div>
+
 
 
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter2">
 <div>
@@ -38,11 +37,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter">
 <div>
@@ -51,11 +48,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter">
 <div>
@@ -64,12 +59,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
-
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter3">
 <div>
 <h1>If you get HIV, your life is over.</h1>
@@ -78,11 +70,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter4">
 <div>
@@ -92,11 +82,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter5">
 <div>
@@ -106,11 +94,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter6">
 <div>
@@ -120,11 +106,9 @@ export default{
 </div>
 
 </div>
-</div>
 
 <!-- button -->
-<div class="row px-5 mythsbuttons px-3 py-3 my-3">
-        <div class="col-12">
+<div class="mythsbuttons px-3 py-3 my-3 mx-md-4 m-lg-3 p-lg-3 col-md-3 col-12">
 
 <div type="button" data-toggle="modal" data-target="#exampleModalCenter">
 <div>
@@ -133,6 +117,7 @@ export default{
 </div>
 
 </div>
+
 </div>
 
 
@@ -151,110 +136,122 @@ export default{
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+<div class="modal fade " id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" role="document">
+    <div id="modal-facts___BV_modal_header_" class="modal-header">
         <div type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </div>
       </div>
-      <div class="modal-body">
+    <div class="modal-content modal-body">
+      
+    
       <myth1/>
-      </div>
+    
     </div>
-  </div>
-</div>
+    </div>
+    </div>
+    </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content" role="document">
+        <div id="modal-facts___BV_modal_header_" class="modal-header">
+            <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </div>
+          </div>
+        <div class="modal-content modal-body">
+          
+        
+          <myth2/>
+        
         </div>
-      </div>
-      <div class="modal-body">
-      <myth2/>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
         </div>
-      </div>
-      <div class="modal-body">
-      <myth3/>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
         </div>
-      </div>
-      <div class="modal-body">
-      <myth4/>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </div>
-      </div>
-      <div class="modal-body">
-      <myth5/>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </div>
-      </div>
-      <div class="modal-body">
-      <myth6/>
-      </div>
-    </div>
-  </div>
-</div>
-
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade " id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" role="document">
+            <div id="modal-facts___BV_modal_header_" class="modal-header">
+                <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </div>
+              </div>
+            <div class="modal-content modal-body">
+              
+            
+              <myth3/>
+            
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade " id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content" role="document">
+                <div id="modal-facts___BV_modal_header_" class="modal-header">
+                    <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </div>
+                  </div>
+                <div class="modal-content modal-body">
+                  
+                
+                  <myth4/>
+                
+                </div>
+                </div>
+                </div>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade " id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content" role="document">
+                    <div id="modal-facts___BV_modal_header_" class="modal-header">
+                        <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </div>
+                      </div>
+                    <div class="modal-content modal-body">
+                      
+                    
+                      <myth5/>
+                    
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content" role="document">
+                        <div id="modal-facts___BV_modal_header_" class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </div>
+                          </div>
+                        <div class="modal-content modal-body">
+                          
+                        
+                          <myth6/>
+                        
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+    </div>
     `,
 
     components: {

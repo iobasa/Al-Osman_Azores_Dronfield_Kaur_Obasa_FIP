@@ -1,12 +1,24 @@
+#learn-text{
+    width:100%;
+}
+
+.container .learn-more{
+    width: 100vw;
+}
+
 .learn-more {
-    width: 100%;
+    width: 100% !important;
     background-color: $red;
     // padding: 50px 30px;
     border-radius: 50px 50px 0 0;
     margin-top: -50px;
     z-index: 10;
     position: relative;
+    padding-bottom: 30px;
 
+    li {
+        list-style-type: none;
+    }
     .learn-button {
         display: flex;
         flex-direction: column;
@@ -49,4 +61,63 @@
 
 #learn-living {
     background-color: #6FCFEB;
+}
+
+@media screen and (min-width: 768px) {
+.container { max-width: initial;}
+.learn-more {
+    width: 100vw;
+    .learn-button {
+        img {
+            width: 100%;
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+.prevention {
+    background-color: $yellow;
+    padding-top: 50px;
+
+    .title {
+        padding: 0 25px;
+
+        h1 {
+            color: $red;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .prevention {
+        padding-top: 100px;
+        padding-bottom: 80px;
+
+        .title {
+            h1 {
+                font-size: 60px!important;
+                padding-bottom: 50px!important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .prevention {
+        .symptoms {
+            .symptoms-img {
+                img {
+                    height: 230px;
+                }
+            }
+        }
+    }
 }

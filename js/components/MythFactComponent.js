@@ -28,29 +28,36 @@ export default {
         <gettested />
 
         <!-- LEARN MORE -->
-        <div class="container learn-more">
+    <div class="learn-more">
         <div class="row px-5 justify-content-center">
-            <div class="col learn-button my-3" cols="10" id="learn-text">
+            
+            <div class="col-12 learn-button my-3"  id="learn-text">
             <h1>Learn More</h1>
             </div>
-
-            <div class="col learn-button my-3" cols="10" id="learn-101">
-                <h5>HIV 101</h5>
-                <img src="images/hero-hiv101.svg" alt="HIV 101">
-            </div>
             
-            <div class="col learn-button my-3" cols="10" id="learn-prevent">
-                <h5>Prevention</h5>
-                <img src="images/hiv-prevention.svg" alt="HIV prevention"> 
+            <router-link to="/hiv-101" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-101">
+            <h5>HIV 101</h5>
+            <img src="images/hero-hiv101.svg" alt="HIV 101"> 
             </div>
+            </router-link>
 
-            <div class="col learn-button my-3" cols="10" id="learn-living">
-                <h5>Living with HIV</h5>
+            <router-link to="/hiv-prevention" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-prevent">
+            <h5>Prevention</h5>
+            <img src="images/hiv-prevention.svg" alt="HIV prevention">
+            </div>
+            </router-link>
+
+            <router-link to="/hiv-living" tag="li">
+            <div class="col-12 learn-button my-3"  id="learn-living">
+            <h5>Living with HIV</h5>
                 <img src="images/hiv-living.svg" alt="Living with HIV"> 
             </div>
+            </router-link>
         </div>
-      < /div>
-        </div>
+    </div>
+
 
     <footers/>
 
